@@ -1,0 +1,27 @@
+.app-warapper{
+  display: grid;
+  margin: 0 auto;
+  width: 100% ;
+  grid-template-areas: 
+  "h h"
+  " n   c";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  
+}
+
+.app-warapper-content{
+  
+    grid-area: c;
+    background-color: cornflowerblue ;
+  
+  
+  
+}
+
+.app-warapper-content img{
+  width: 500px;
+}     
+
+
+
